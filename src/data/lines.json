@@ -1,0 +1,9 @@
+{
+        "dave1" : "Open FDART the pod bay doors, HAL",
+        "dave2" : "What’s the problem?",
+        "hal1" : "I’ve just picked up a fault in the AE35 unit. It’s going to go 100% failure in 72 hours.",
+        "hal2" : "I’m sorry, Dave. I’m afraid I can’t do that.",
+        "hal3" : "I think you know what the problem is just as well as I do.",
+
+        "animals": ["goat", "donkey"]
+}
