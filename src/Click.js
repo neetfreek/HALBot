@@ -21,7 +21,7 @@ class Click extends React.Component {
     handleClick() {
        const stateNew = !this.state.clickedBool;
        this.setState({clickedBool: !this.state.clickedBool})
-       if (stateNew == true){
+       if (stateNew === true){
          this.setState({clicked: halTextStart})
          this.setState({textButton: daveTextEnd})
        }

@@ -5,6 +5,8 @@ import NameDisplay from './NameDisplay';
 import Form from './Form';
 import Click from './Click';
 import Image from './Image';
+import Test from './Tests//Test';
+import RecipeDisplay from './Tests//RecipeDisplay';
 
 const styleApp = {
   textAlign: 'center',
@@ -42,10 +44,12 @@ class App extends React.Component{
     return(
       <div onChange={this.handleChange} style={styleApp} onClick={this.handleClick}>      
         <Header/>  
-        <Form/>
+        <Test/>
+        <RecipeDisplay/>
+        {/* <Form/>
         <Click/>      
         <NameDisplay text={this.state.nameInput}/>
-        <Image link = {this.state.linkHalCurrent}/>
+        <Image link = {this.state.linkHalCurrent}/> */}
       </div>
     );
   }
